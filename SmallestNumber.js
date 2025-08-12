@@ -1,16 +1,16 @@
 // Online Javascript Editor for free
 // Write, Edit and Run your Javascript code using JS Online Compiler
 
-function findLargest(arr){
-    let largestElement = Infinity;
+function findSmallest(arr){
+    let smallestElement = Infinity;
     for(let i=0; i<arr.length;i++){
-        if(arr[i]<largestElement){
-        largestElement= arr[i] ;
+        if(arr[i]<smallestElement){
+        smallestElement= arr[i] ;
         }
     }
-    return largestElement;
+    return smallestElement;
 }
 
 let arr= [2,9,17,1,10,4,8,-1];
-let result = findLargest(arr);
+let result = findSmallest(arr);
 console.log(result);
