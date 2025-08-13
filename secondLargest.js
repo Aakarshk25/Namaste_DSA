@@ -9,7 +9,7 @@ function secondLargest(arr) {
         if (arr[i] > firstLargest) {
             secondLargest = firstLargest;
             firstLargest = arr[i];
-        }
+        }  
         else if(arr[i] > secondLargest){
             secondLargest = arr[i];
         }
